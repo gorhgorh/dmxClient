@@ -12,6 +12,7 @@
 
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/rangeslider.js/dist/rangeslider.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -31,13 +32,14 @@
     <div class="container">
       <div class="header">
         <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#" class="btAnim">anim</a></li>
+          <li><a href="#" class="btStop">stop</a></li>
+          <li><a href="#" class="btReset">reset</a></li>
         </ul>
         <h3 class="text-muted">dmxClient</h3>
       </div>
       <div class="row levelCont" id="app"></div>
+      <div class="col-md-12"><button class="addChan">add chan</button></div>
       <div class="footer">
         <p><span class="glyphicon glyphicon-heart"></span> from the Yetis</p>
       </div>
@@ -49,6 +51,7 @@
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/lodash/lodash.js"></script>
+    <script src="/bower_components/rangeslider.js/dist/rangeslider.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
